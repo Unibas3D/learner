@@ -1,0 +1,197 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 22rem;
+  }
+  
+body {
+  min-width: 22rem;
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('../fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'),url('cocogoose_pro-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Default Styles */
+.text-darky {
+    color: #272a31;
+}
+
+.text-orange {
+    color: #ec5242;
+}
+
+.text-grey {
+    color: #d3d3d3;
+}
+
+.bg-darky {
+    background: #272a31;
+}
+
+.bg-orange {
+    background: #ec5242;
+}
+
+.bg-grey {
+    background: #d3d3d3;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Default Side Padding */
+.default-p {
+    padding: 0 20rem;
+}
+
+/* Navigation */
+.top-nav {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-nav i {
+    cursor: pointer;
+}
+
+.lower-nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-menu {
+    list-style-type: none;
+}
+
+.page-menu-item{
+    font-size: 1.7 rem;
+    font-weight: bold;
+}
+
+.page-menu-item:hover,
+.page-menu-item:focus {
+    color: #ec5242;
+    text-decoration: none;
+}
+
+.nav-title {
+    color: black;
+}
+
+/*Home - Main Section */
+ .main {
+    background-image: 
+    linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)), 
+    url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);
+ }
+ 
+/* Hero Section */
+.hero-section {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 13rem;
+}
+
+.first-hero-text {
+    font-size: 3.5rem;
+}
+
+.second-hero-text {
+    font-size: 5.5rem;
+    font-weight: 900;
+}
+
+.third-hero-text {
+    padding: 2rem;
+    border: 3px solid white;
+    width: 60%;
+    font-weight: 500;
+}
+
+.hero-date-text {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.hero-venue-text {
+    font-size: 2rem;
+}
+
+/* Main Program Section */
+.main-program {
+    text-align: center;
+    color: white;
+    margin: 0 -20rem;
+    padding: 7.6rem 20rem;
+    border-bottom: 1px solid #fff;
+}
+
+.program-head-hr {
+    width:3rem;
+    background: #ec5242;
+    color: #ec5242;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.program-list {
+    margin: 4rem 0 4rem;
+    justify-content: center;
+}
+
+.program-item {
+    flex-direction: column;
+    width: 16.8rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(168, 168, 166, 0.192);
+    padding: 2rem;
+    transition-property: border;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+}
+
+.program-item:hover {
+    border: 2px solid white;
+}
+
+.program-item i {
+    font-size: 25px;
+}
+
+.program-title {
+    font-size: 2.3rem;
+}
+
+.main-program-foot {
+    border-bottom: 1px solid white;
+} 
+
+
+
+
+/* Footer Section */
+.footer {
+    height: 17.5rem;
+    align-items: center;
+}
+
+.cc-img {
+    width: 20rem;
+}
