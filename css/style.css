@@ -97,14 +97,15 @@ body {
     background-image: 
     linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)), 
     url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    padding-top: 13rem;
+
  }
  
 /* Hero Section */
 .hero-section {
     height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 13rem;
 }
 
 .first-hero-text {
@@ -121,6 +122,7 @@ body {
     border: 3px solid white;
     width: 60%;
     font-weight: 500;
+    background: #eeeeee;
 }
 
 .hero-date-text {
@@ -139,6 +141,11 @@ body {
     margin: 0 -20rem;
     padding: 7.6rem 20rem;
     border-bottom: 1px solid #fff;
+    background-image: 
+    linear-gradient(#272a31fb, #272a31fb), 
+    url(../img/programs-bg-image2.jpg);
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .program-head-hr {
@@ -163,7 +170,7 @@ body {
     background: rgba(168, 168, 166, 0.192);
     padding: 2rem;
     transition-property: border;
-    transition-duration: .2s;
+    transition-duration: .1s;
     transition-timing-function: ease-in-out;
 }
 
@@ -183,13 +190,81 @@ body {
     border-bottom: 1px solid white;
 } 
 
+/* Speakers Section */
+.speakers {
+    text-align: center;
+    margin: 0 -20rem;
+    padding: 7.6rem 20rem;
+    background: #eeeeee;
+}
 
+.speakers-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    margin-top: 7.6rem;
+}
 
+.speaker-right {
+    text-align: left;
+    height: auto;
+    /* width: 50%; */
+}
+
+.speaker-img {
+    width: 160px;
+    height: 160px;
+    margin: 0;
+    padding: 0;
+}
+
+.speaker-name {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.speaker-bio,
+.speaker-seperator-line,
+.speaker-body {
+    margin: 0;
+    padding: 0;
+}
+
+.speaker-bio {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.speaker-seperator-line {
+    width: 2.5rem;
+    height: 1.5px;
+    background: rgba(168, 168, 166, 0.904);
+}
+
+/* Partners Section */
+.partners {
+    text-align: center;
+    color: white;
+    margin: 0 -20rem;
+    padding: 7.6rem 20rem;
+    border-bottom: 1px solid #fff;
+    color: rgba(168, 168, 166, 0.904);
+}
+
+.partner-logo {
+    width: 15rem;
+}
 
 /* Footer Section */
 .footer {
-    height: 17.5rem;
+    height: 17.5rem; 
     align-items: center;
+}
+.home-footer {
+    background: #eeeeee;
 }
 
 .cc-img {
