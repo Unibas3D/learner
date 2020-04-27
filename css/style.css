@@ -175,7 +175,9 @@ body {
 }
 
 .program-item:hover {
+    /* box-sizing: content-box; */
     border: 2px solid white;
+    margin: -2px;
 }
 
 .program-item i {
@@ -258,6 +260,136 @@ body {
     width: 15rem;
 }
 
+/* About Page - Hero Section*/
+.about-hero-section {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-hero-head {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 3.2rem;
+}
+
+.about-hero-head-hr {
+    margin: 2rem auto;
+}
+
+.about-hero-text2 {
+    margin: 4rem auto 7rem;
+    background: #eeeeee;
+}
+
+.about-hero-text2 a{
+    text-decoration: underline;
+    /* color: #272a31; */
+}
+
+/* GDG Logo Section */
+.gdg-logo-section {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+.gdg-logo-head {
+    font-size: 3rem;
+}
+
+.gdg-logo-main {
+    padding: 3rem 7rem;
+    width: max-content;
+    margin: 0 auto;
+    text-align: left;
+    margin: 4.5rem auto;
+}
+
+/* Previous DevFests Section */
+.past-devfests-section {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+}
+
+.previous-years-main {
+    justify-content: space-between;
+    margin: 3rem 0 9rem;
+}
+
+.previous-years-img {
+    content: "";
+    width: 275px;
+    height: 150px;
+    background-image: linear-gradient(#ec5342a1, #ec5342a1), 
+    url(../img/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.previous-years-img2 {
+    background-image: linear-gradient(#ec5342a1, #ec5342a1), 
+    url(../img/helena-lopes-UZe35tk5UoA-unsplash.jpg);
+}
+
+/*Tickets - Main Section */
+.tickets-main {
+    background-image: 
+    linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192));
+    padding-top: 13rem;
+ }
+
+.tickets-hero-section {
+    height: 380px;
+}
+
+.step-diamond {
+    content: "";
+    height: 4px;
+    width: 4px;
+    transform: rotate(45deg);
+}
+
+.ticket-steps {
+    border: 2px solid #d3d3d3;
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    border-radius: 20px;
+}
+
+.tickets-table-wrapper {
+    width: 40rem;
+    background-image: url(../img/red-blue-red-stripes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.tickets-table-head {
+    background: #eeeeee;
+}
+
+.ticket-price {
+    font-size: 2rem;
+}
+
+.ticket-submit {
+    font-size: 1.2rem;
+    padding: 0.7rem 4rem;
+}
+ 
 /* Footer Section */
 .footer {
     height: 17.5rem; 

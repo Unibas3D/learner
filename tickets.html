@@ -53,24 +53,47 @@
         </div>
     </nav>
 
-    <div class="main">
-        <div class="hero-section">
-            
+    <div class="tickets-main">
+        <div class="hero-section tickets-hero-section text-center">
+            <h2 class="gdg-logo-head">Select Tickets</h2>
+            <p class="program-head-hr my-3"></p>
+            <div class="ticket-steps text-darky my-5">
+                <div class="step-diamond bg-orange"></div>
+                <span class="text-orange mr-4 ml-2">Step 1</span>
+                Please select the type of ticket you want to buy
+            </div>
+            <div class="tickets-table-wrapper mx-auto p-1">
+                <div class="tickets-table-main container-fluid w-100 p-0">
+                    <div class="row tickets-table-head no-gutters">
+                        <div class="col border border-right-0 p-2">Tickets</div>
+                        <div class="col border border-right-0 p-2">Personal</div>
+                        <div class="col border p-2">Pair</div>
+                    </div>
+                    <div class="row no-gutters bg-white">
+                        <div class="col border border-right-0 p-2">Professionals</div>
+                        <div class="col border border-right-0 text-orange ticket-price p-2">$30
+                            <input type="radio" name="prof-ticket" id="" class="d-block mx-auto">
+                        </div>
+                        <div class="col border text-orange ticket-price p-2">$50
+                            <input type="radio" name="prof-ticket" id="" class="d-block mx-auto">
+                        </div>
+                    </div>
+                    <div class="row no-gutters bg-white">
+                        <div class="col border border-right-0 p-2">Students</div>
+                        <div class="col border border-right-0 text-orange ticket-price p-2">$15
+                            <input type="radio" name="study-ticket" id="" class="d-block mx-auto">
+                        </div>
+                        <div class="col border text-orange ticket-price p-2">$25
+                            <input type="radio" name="study-ticket" id="" class="d-block mx-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="tickets.html" class="ticket-submit bg-orange text-white border-0 text-decoration-none">Submit</a>
         </div>
     </div>
 
-    <footer class="footer default-p bg-darky w-100 d-flex">
-        <div class="main-footer w-100 d-flex">
-            <a href="https://creativecommons.org/">
-                <img src="https://d15omoko64skxi.cloudfront.net/wp-content/uploads/2016/06/cc.logo_.white_.png" alt="" class="cc-img">
-            </a>
-            <div class="footer-right text-white ml-5">
-                <p class="m-0 p-0">2020 Creative Commons.</p>
-                <p class="m-0 p-0">This website is just for an educational purpose. The dates and event are fictional. <br>
-                    Google Developer Group DevFests are the largest Google related events in the world!</p>
-            </div>
-        </div>
-    </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
