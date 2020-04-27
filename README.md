@@ -3,9 +3,13 @@ I built this project with inspiration from an original webpage [here](https://de
 GDG RND is an actual community, and the event was an actual event I attended. I am using the content on their website for the Developer Festival of 2019 to implement [this design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 The idea is to create an original Conference website based on the design at [behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
-![PROJECT: design made by Smith Nkereuwem]()
+![Screenshot: Home Large Screen](screenshots/home-large-screen.png)
 
-![PROJECT: design made by Smith Nkereuwem]()
+![Screenshot: Home Mobile Screen](screenshots/home-mobile-screen.png)
+
+![Screenshot: About Large Screen](screenshots/about-large-screen.png)
+
+![Screenshot: Home Speakers Section](screenshots/home-speakers-section.png)
 
 ## Built With
 
@@ -21,7 +25,7 @@ The idea is to create an original Conference website based on the design at [beh
 
 ## Live Webpage
 
-[Click Here]()
+[Click Here](https://raw.githack.com/SmithVyne/DevFest-RND/devfest/index.html)
 
 ## Author
 
@@ -41,5 +45,5 @@ Give a ⭐️ if you like this project!
 - Used Google Fonts for the fonts
 - Used Fontawesome for the icons
 - Used Bootstrap to style a few elements on the webpage. 
-- Used images from GDG RND's webpage. 
+- Used images from GDG RND's [webpage](https://devfest.gdgrnd.ru). 
 - Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
