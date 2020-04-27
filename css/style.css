@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  transition-property: all;
+  transition-duration: .5s;
 }
 
 html {
@@ -115,6 +117,9 @@ body {
 .second-hero-text {
     font-size: 5.5rem;
     font-weight: 900;
+    background: linear-gradient(45deg, red, #ec5242 50%, #ec5242 90%);
+    background-clip: text;
+    color: transparent;
 }
 
 .third-hero-text {
@@ -302,7 +307,6 @@ body {
 .gdg-logo-main {
     padding: 3rem 7rem;
     width: max-content;
-    margin: 0 auto;
     text-align: left;
     margin: 4.5rem auto;
 }
@@ -401,4 +405,146 @@ body {
 
 .cc-img {
     width: 20rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    /* Default Padding */
+    .default-p {
+        padding: 0 2.5rem;
+    }
+    .fa-bars {
+        font-size: 3rem;
+        margin: 1.5rem 0 0 2.5rem;
+    }
+    
+    /*Home - Main Section */
+    .main,
+    .tickets-main {
+        padding-top: 8rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* background: #eeeeee; */
+    }
+
+    /* Hero Section */
+    .hero-section {
+        height: max-content;
+        padding-bottom: 8rem;
+    }
+
+    .first-hero-text {
+        font-size: 2rem;
+    }
+    .second-hero-text {
+        font-size: 4rem;
+    }
+    
+    .third-hero-text {
+        width: 100%;
+        margin-top: 2rem !important;
+    }
+
+    /* Program Section */
+    .main-program,
+    .speakers,
+    .gdg-logo-section,
+    .past-devfests-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .program-list {
+        margin: 4rem 0 4rem;
+        flex-direction: column;
+    }
+
+    .program-item {
+        flex-direction: row;
+        width: 100%;
+        text-align: left;
+        margin: 0 !important;
+        margin-top: 1rem !important;
+        justify-content: flex-start;
+    }
+    
+    .program-item i,
+    .main-program-head,
+    .main-program-foot,
+    .speakers-head {
+        font-size: 18px !important;
+    }
+    
+    .program-title {
+        font-size: 2rem;
+        margin: 0 1rem;
+    }
+
+    /* Speakers */
+    .speakers-main {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8, max-content);
+        grid-column-gap: 2rem;
+        grid-row-gap: 3rem;
+    }
+    
+    /* About Page */
+    /* GDG Logo */
+    .gdg-logo-main {
+        padding: 3rem 0;
+        width: 100%;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .gdg-logo-head {
+        font-size: 2.5rem;
+    }
+
+    /* Past Devfests Section */
+    .previous-years-main {
+        align-items: center;
+        margin:0;
+        flex-direction: column;
+    }
+
+    .previous-years-img {
+        margin: 0 !important;
+    }
+
+    /* Tickets Page */
+    .tickets-hero-section {
+        height: 100vh;
+    }
+
+    @media(max-width: 400px){
+        .ticket-steps,
+        .tickets-table-wrapper  {
+            width: 98%;
+        }
+    }
+    
+    /* Footer */
+    .footer {
+        height: max-content;
+        padding: 1rem;
+    }
+
+    .main-footer {
+        flex-direction: column;
+    }
+
+    .footer-right,
+    .previous-years-img2 {
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .speakers-main {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8, max-content);
+        grid-column-gap: 2rem;
+        grid-row-gap: 3rem;
+    }
 }
