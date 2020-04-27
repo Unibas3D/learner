@@ -1,5 +1,5 @@
-#  Capstone Project - Convention website for Develolper Festival Rostov-On-Don, Russia
-I built this project with inspiration from an original webpage [here](https://devfest.gdgrnd.ru/)  using the layout and deisgn style concepts [behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
+#  Capstone Project - Convention website for Developer Festival Rostov-On-Don, Russia
+I built this project with inspiration from an original webpage [here](https://devfest.gdgrnd.ru/)  using the layout and design style concepts [behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). 
 GDG RND is an actual community, and the event was an actual event I attended. I am using the content on their website for the Developer Festival of 2019 to implement [this design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 The idea is to create an original Conference website based on the design at [behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
