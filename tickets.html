@@ -52,10 +52,20 @@
             </ul>
         </div>
     </nav>
-    <i class="fas fa-bars d-flex d-md-none position-absolute cursor-pointer"></i>
-    <div class="tickets-main">
-        <div class="hero-section tickets-hero-section text-center">
-            <h2 class="gdg-logo-head">Select Tickets</h2>
+    <!-- Mobile Navigation -->
+    <div class="dropdown d-flex d-md-none position-absolute">
+        <i class="fas fa-bars cursor-pointer" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button"></i>
+
+        <div class="dropdown-menu bg-darky" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item text-white" href="index.html">Welcome</a>
+          <a class="dropdown-item text-white" href="about.html">About</a>
+          <a class="dropdown-item text-white" href="tickets.html">Get Tickets</a>
+        </div>
+    </div>
+
+    <main class="tickets-main">
+        <section class="hero-section tickets-hero-section text-center">
+            <h1 class="gdg-logo-head">Select Tickets</h1>
             <p class="program-head-hr my-3"></p>
             <div class="ticket-steps text-darky my-5">
                 <div class="step-diamond bg-orange"></div>
@@ -89,10 +99,61 @@
                     </div>
                 </div>
             </div>
-            <a href="tickets.html" class="ticket-submit bg-orange text-white border-0 text-decoration-none">Submit</a>
-            <p class="mt-4"><small>Note: Tickets do not cover lunch and accomodation</small></p>
+        </section>
+
+        <div class="tickets-sep-box position-absolute bg-orange text-white d-flex">
+            <div class="l-sep-box border-right-0 border-top-0"></div>
         </div>
-    </div>
+
+        <section class="tickets-lunch text-center">
+            <h1 class="gdg-logo-head">Select Your Lunch</h1>
+            <p class="program-head-hr my-3"></p>
+            <div class="ticket-steps text-darky my-5">
+                <div class="step-diamond bg-orange"></div>
+                <span class="text-orange mr-4 ml-2">Step 1</span>
+                Please select you lunch for the day of the event
+            </div>
+
+            <div class="lunch-menu border">
+                <div class="lunch-menu-grey w-100"></div>
+                <div class="lunch-menu-main d-flex justify-content-between px-5">
+                    <div class="desert-item d-flex align-items-center">
+                        <p class="desert-name mr-1 my-0 py-0">Cheese Cake</p>
+                        <input type="radio" name="desert1" class="my-0 py-0">
+                    </div>
+                    <div class="desert-item d-flex align-items-center">
+                        <p class="desert-name mr-1 my-0 py-0">Butterscotch Pie</p>
+                        <input type="radio" name="desert1" class="my-0 py-0">
+                    </div>
+                    <div class="desert-item d-flex align-items-center">
+                        <p class="desert-name mr-1 my-0 py-0">Jam Rolls</p>
+                        <input type="radio" name="desert1" class="my-0 py-0">
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="lunch-menu lunch-menu2 border">
+                <div class="lunch-menu-grey w-100"></div>
+                <div class="lunch-menu-main d-flex justify-content-between px-5">
+                    <div class="desert-item d-flex align-items-center">
+                        <p class="desert-name mr-1 my-0 py-0">Cola</p>
+                        <input type="radio" name="desert2" class="my-0 py-0">
+                    </div>
+                    <div class="desert-item d-flex align-items-center">
+                        <p class="desert-name mr-1 my-0 py-0">Apple Juice</p>
+                        <input type="radio" name="desert2" class="my-0 py-0">
+                    </div>
+                    <div class="desert-item d-flex align-items-center">
+                        <p class="desert-name mr-1 my-0 py-0">Tea</p>
+                        <input type="radio" name="desert2" class="my-0 py-0">
+                    </div>
+                    
+                </div>
+            </div>
+                <a href="tickets.html" class="ticket-submit bg-orange text-white border-0 text-decoration-none font-weight-bold">Submit</a>
+        </section>
+    </main>
 
 
     <!-- Optional JavaScript -->

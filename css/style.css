@@ -252,13 +252,13 @@ body {
 .partners {
   text-align: center;
   margin: 0 -20rem;
-  padding: 7.6rem 20rem;
+  padding: 7.6rem 10rem;
   border-bottom: 1px solid #fff;
   color: rgba(168, 168, 166, 0.904);
 }
 
 .partner-logo {
-  width: 15rem;
+  width: 18%;
 }
 
 /* About Page - Hero Section */
@@ -285,8 +285,6 @@ body {
 
 .about-hero-text2 a {
   text-decoration: underline;
-
-  /* color: #272a31; */
 }
 
 /* GDG Logo Section */
@@ -344,13 +342,11 @@ body {
 }
 
 /* Tickets - Main Section */
-.tickets-main {
-  background-image: linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192));
-  padding-top: 13rem;
-}
-
 .tickets-hero-section {
-  height: 380px;
+  background-image: linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192));
+  height: max-content;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .step-diamond {
@@ -386,9 +382,55 @@ body {
   font-size: 2rem;
 }
 
+.tickets-sep-box {
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
+  transform-origin: left;
+  margin-top: -6px;
+  left: 48%;
+  right: 48%;
+}
+
+.l-sep-box {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 2px solid white;
+}
+
+.tickets-lunch {
+  padding: 5rem 0;
+}
+
+.lunch-menu {
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.lunch-menu-grey {
+  content: "";
+  height: 3rem;
+  background: #eee;
+}
+
+.lunch-menu-main {
+  align-items: center;
+  height: 6.5rem;
+}
+
+.lunch-menu2 {
+  margin-bottom: 3.5rem;
+}
+
 .ticket-submit {
+  color: white;
   font-size: 1.2rem;
-  padding: 0.7rem 4rem;
+  padding: 1rem 4rem;
 }
 
 /* Footer Section */
@@ -415,6 +457,15 @@ body {
   .fa-bars {
     font-size: 3rem;
     margin: 1.5rem 0 0 2.5rem;
+  }
+
+  .dropdown-menu {
+    height: max-content;
+    font-size: 1.7rem;
+  }
+
+  .dropdown-item:hover {
+    color: #272a31 !important;
   }
 
   /* Home - Main Section */
@@ -494,6 +545,20 @@ body {
     grid-row-gap: 3rem;
   }
 
+  /* Partners */
+  .partners {
+    padding: 4rem 0;
+  }
+
+  .partners-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .partner-logo {
+    margin-top: 4rem;
+  }
+
   /* About Page */
 
   /* GDG Logo */
@@ -520,30 +585,23 @@ body {
   }
 
   /* Tickets Page */
-  .tickets-hero-section {
-    height: 100vh;
-  }
 
   @media (max-width: 400px) {
     .ticket-steps,
-    .tickets-table-wrapper {
+    .tickets-table-wrapper,
+    .lunch-menu {
       width: 98%;
     }
   }
 
   /* Footer */
-  .footer {
-    height: max-content;
-    padding: 1rem;
-  }
-
   .main-footer {
     flex-direction: column;
   }
 
   .footer-right,
   .previous-years-img2 {
-    margin-top: 1rem !important;
+    margin-top: 2rem !important;
   }
 }
 
@@ -553,5 +611,10 @@ body {
     grid-template-rows: repeat(8, max-content);
     grid-column-gap: 2rem;
     grid-row-gap: 3rem;
+  }
+
+  .footer {
+    height: max-content;
+    padding: 2rem;
   }
 }
