@@ -1,0 +1,620 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 22rem;
+}
+
+body {
+  min-width: 22rem;
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('../fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'), url('cocogoose_pro-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Default Styles */
+.text-darky {
+  color: #272a31;
+}
+
+.text-orange {
+  color: #ec5242;
+}
+
+.text-grey {
+  color: #d3d3d3;
+}
+
+.bg-darky {
+  background: #272a31;
+}
+
+.bg-orange {
+  background: #ec5242;
+}
+
+.bg-grey {
+  background: #d3d3d3;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Default Side Padding */
+.default-p {
+  padding: 0 20rem;
+}
+
+/* Navigation */
+.top-nav {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.top-nav i {
+  cursor: pointer;
+}
+
+.lower-nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-menu {
+  list-style-type: none;
+}
+
+.page-menu-item {
+  font-size: 1.7 rem;
+  font-weight: bold;
+}
+
+.page-menu-item:hover,
+.page-menu-item:focus {
+  color: #ec5242;
+  text-decoration: none;
+}
+
+.nav-title {
+  color: black;
+  font-size: 2.5rem;
+}
+
+/* Home - Main Section */
+.main {
+  background-image:
+    linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)),
+    url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);
+  padding-top: 13rem;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 600px;
+}
+
+.first-hero-text {
+  font-size: 3.5rem;
+}
+
+.second-hero-text {
+  font-size: 5.5rem;
+  font-weight: 900;
+  background: linear-gradient(45deg, red, #ec5242 50%, #ec5242 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #ec5242;
+}
+
+.third-hero-text {
+  padding: 2rem;
+  border: 3px solid white;
+  width: 60%;
+  font-weight: 500;
+  background: #eee;
+}
+
+.hero-date-text {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.hero-venue-text {
+  font-size: 2rem;
+}
+
+/* Main Program Section */
+.main-program {
+  text-align: center;
+  color: white;
+  margin: 0 -20rem;
+  padding: 7.6rem 20rem;
+  border-bottom: 1px solid #fff;
+  background-image:
+    linear-gradient(#272a31fb, #272a31fb),
+    url(../img/programs-bg-image2.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+.program-head-hr {
+  width: 3rem;
+  background: #ec5242;
+  color: #ec5242;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.program-list {
+  margin: 4rem 0 4rem;
+  justify-content: center;
+}
+
+.program-item {
+  flex-direction: column;
+  width: 16.8rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(168, 168, 166, 0.192);
+  padding: 2rem;
+  transition-property: border;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+}
+
+.program-item:hover {
+  border: 2px solid white;
+  margin: -2px;
+}
+
+.program-item i {
+  font-size: 25px;
+}
+
+.program-title {
+  font-size: 2.3rem;
+}
+
+.main-program-foot {
+  border-bottom: 1px solid white;
+}
+
+/* Speakers Section */
+.speakers {
+  text-align: center;
+  margin: 0 -20rem;
+  padding: 7.6rem 20rem;
+  background: #eee;
+}
+
+.speakers-main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 4rem;
+  margin-top: 7.6rem;
+}
+
+.speaker-right {
+  text-align: left;
+  height: auto;
+}
+
+.speaker-img {
+  width: 160px;
+  height: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-name {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-bio,
+.speaker-seperator-line,
+.speaker-body {
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-bio {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.speaker-seperator-line {
+  width: 2.5rem;
+  height: 1.5px;
+  background: rgba(168, 168, 166, 0.904);
+}
+
+/* Partners Section */
+.partners {
+  text-align: center;
+  margin: 0 -20rem;
+  padding: 7.6rem 10rem;
+  border-bottom: 1px solid #fff;
+  color: rgba(168, 168, 166, 0.904);
+}
+
+.partner-logo {
+  width: 18%;
+}
+
+/* About Page - Hero Section */
+.about-hero-section {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-hero-head {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 3.2rem;
+}
+
+.about-hero-head-hr {
+  margin: 2rem auto;
+}
+
+.about-hero-text2 {
+  margin: 4rem auto 7rem;
+  background: #eee;
+}
+
+.about-hero-text2 a {
+  text-decoration: underline;
+}
+
+/* GDG Logo Section */
+.gdg-logo-section {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.gdg-logo-head {
+  font-size: 3rem;
+}
+
+.gdg-logo-main {
+  padding: 3rem 7rem;
+  width: max-content;
+  text-align: left;
+  margin: 4.5rem auto;
+}
+
+/* Previous DevFests Section */
+.past-devfests-section {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+}
+
+.previous-years-main {
+  justify-content: space-between;
+  margin: 3rem 0 9rem;
+}
+
+.previous-years-img {
+  content: "";
+  width: 275px;
+  height: 150px;
+  background-image:
+    linear-gradient(#ec5342a1, #ec5342a1),
+    url(../img/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.previous-years-img2 {
+  background-image:
+    linear-gradient(#ec5342a1, #ec5342a1),
+    url(../img/helena-lopes-UZe35tk5UoA-unsplash.jpg);
+}
+
+/* Tickets - Main Section */
+.tickets-hero-section {
+  background-image: linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192));
+  height: max-content;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.step-diamond {
+  content: "";
+  height: 4px;
+  width: 4px;
+  transform: rotate(45deg);
+}
+
+.ticket-steps {
+  border: 2px solid #d3d3d3;
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+}
+
+.tickets-table-wrapper {
+  width: 40rem;
+  background-image: url(../img/red-blue-red-stripes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+.tickets-table-head {
+  background: #eee;
+}
+
+.ticket-price {
+  font-size: 2rem;
+}
+
+.tickets-sep-box {
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-45deg);
+  transform-origin: left;
+  margin-top: -6px;
+  left: 48%;
+  right: 48%;
+}
+
+.l-sep-box {
+  content: "";
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 2px solid white;
+}
+
+.tickets-lunch {
+  padding: 5rem 0;
+}
+
+.lunch-menu {
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.lunch-menu-grey {
+  content: "";
+  height: 3rem;
+  background: #eee;
+}
+
+.lunch-menu-main {
+  align-items: center;
+  height: 6.5rem;
+}
+
+.lunch-menu2 {
+  margin-bottom: 3.5rem;
+}
+
+.ticket-submit {
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 4rem;
+}
+
+/* Footer Section */
+.footer {
+  height: 17.5rem;
+  align-items: center;
+}
+
+.home-footer {
+  background: #eee;
+}
+
+.cc-img {
+  width: 20rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Default Padding */
+  .default-p {
+    padding: 0 2.5rem;
+  }
+
+  .fa-bars {
+    font-size: 3rem;
+    margin: 1.5rem 0 0 2.5rem;
+  }
+
+  .dropdown-menu {
+    height: max-content;
+    font-size: 1.7rem;
+  }
+
+  .dropdown-item:hover {
+    color: #272a31 !important;
+  }
+
+  /* Home - Main Section */
+  .main-program,
+  .partners,
+  .speakers {
+    margin: 0 -2.5rem !important;
+    padding: 0 2.5rem;
+  }
+
+  .main,
+  .tickets-main {
+    padding-top: 8rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    height: max-content;
+    padding-bottom: 8rem;
+  }
+
+  .first-hero-text {
+    font-size: 2rem;
+  }
+
+  .second-hero-text {
+    font-size: 4rem;
+  }
+
+  .third-hero-text {
+    width: 100%;
+    margin-top: 2rem !important;
+  }
+
+  /* Program Section */
+  .main-program,
+  .speakers,
+  .gdg-logo-section,
+  .past-devfests-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .program-list {
+    margin: 4rem 0 4rem;
+    flex-direction: column;
+  }
+
+  .program-item {
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    margin: 0 !important;
+    margin-top: 1rem !important;
+    justify-content: flex-start;
+  }
+
+  .program-item i,
+  .main-program-head,
+  .main-program-foot,
+  .speakers-head {
+    font-size: 18px !important;
+  }
+
+  .program-title {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+
+  /* Speakers */
+  .speakers-main {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, max-content);
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+  }
+
+  /* Partners */
+  .partners {
+    padding: 4rem 0;
+  }
+
+  .partners-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .partner-logo {
+    margin-top: 4rem;
+  }
+
+  /* About Page */
+
+  /* GDG Logo */
+  .gdg-logo-main {
+    padding: 3rem 0;
+    width: 100%;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .gdg-logo-head {
+    font-size: 2.5rem;
+  }
+
+  /* Past Devfests Section */
+  .previous-years-main {
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+  }
+
+  .previous-years-img {
+    margin: 0 !important;
+  }
+
+  /* Tickets Page */
+
+  @media (max-width: 400px) {
+    .ticket-steps,
+    .tickets-table-wrapper,
+    .lunch-menu {
+      width: 98%;
+    }
+  }
+
+  /* Footer */
+  .main-footer {
+    flex-direction: column;
+  }
+
+  .footer-right,
+  .previous-years-img2 {
+    margin-top: 2rem !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .speakers-main {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(8, max-content);
+    grid-column-gap: 2rem;
+    grid-row-gap: 3rem;
+  }
+
+  .footer {
+    height: max-content;
+    padding: 2rem;
+  }
+}
