@@ -5,12 +5,6 @@ The idea is to create an original Conference website based on the design at [beh
 
 ![Screenshot: Home Large Screen](screenshots/home-large-screen.png)
 
-![Screenshot: Home Mobile Screen](screenshots/home-mobile-screen.png)
-
-![Screenshot: About Large Screen](screenshots/about-large-screen.png)
-
-![Screenshot: Home Speakers Section](screenshots/home-speakers-section.png)
-
 ## Built With
 
 - HTML,
@@ -23,6 +17,14 @@ The idea is to create an original Conference website based on the design at [beh
 
 - To create an original Conference website based on the design at [behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
+- To build the home, about, and tickets pages as minimum requirements.
+
+- To follow the color, typographies, and layout of the given design
+
+- To make it responsive in two screen sizes of >768px and <768px
+
+- To personalize the content to my liking.
+
 ## Live Webpage
 
 [Click Here](https://raw.githack.com/SmithVyne/DevFest-RND/devfest/index.html)
@@ -31,8 +33,8 @@ The idea is to create an original Conference website based on the design at [beh
 
 👤 **Smith Nkereuwem**
 
-- Github: [@SmithVyne](https://github.com/SmithVyne9)
-- Twitter: [@SmithVyne](https://github.com/SmithVyne)
+- Github: [@SmithVyne](https://github.com/SmithVyne)
+- Twitter: [@SmithVyne](https://twitter.com/SmithVyne)
 - Email: [email me](smithnkereuwem2@gmail.com)
 
 ## Show your support
