@@ -13,7 +13,7 @@ The idea is to create an original Conference website based on the design at [beh
 - Font Awesome
 
 
-### Milestone
+### Milestones
 
 - To create an original Conference website based on the design at [behance.com](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) 
 
