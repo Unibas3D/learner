@@ -123,7 +123,7 @@ body {
 .second-hero-text {
   font-size: 5.5rem;
   font-weight: 900;
-  background: linear-gradient(45deg, red, #00beee 50%, #00beee 90%);
+  background: linear-gradient(45deg, #00b69d, #00beee 50%, #00beee 90%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   color: #00beee;
