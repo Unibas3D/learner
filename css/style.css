@@ -39,6 +39,10 @@ body {
   color: #d3d3d3;
 }
 
+.bg-green {
+  background: #00b69d;
+}
+
 .bg-darky {
   background: #272a31;
 }
