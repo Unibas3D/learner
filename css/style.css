@@ -154,7 +154,7 @@ body {
   padding: 7.6rem 20rem;
   border-bottom: 1px solid #fff;
   background-image:
-    linear-gradient(#272a31fb, #272a31fb),
+    linear-gradient(#00b69d, #00b69d,
     url(../img/programs-bg-image2.jpg);
   background-repeat: repeat;
   background-size: contain;
