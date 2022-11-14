@@ -126,7 +126,7 @@ body {
   background: linear-gradient(45deg, red, #ec5242 50%, #ec5242 90%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  color: #ec5242;
+  color: #00beee;
 }
 
 .third-hero-text {
