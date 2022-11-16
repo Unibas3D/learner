@@ -595,7 +595,7 @@ body {
 
   /* Tickets Page */
 
- @media screen and (max-width: 400px) {
+ @media (max-width: 400px) {
     .ticket-steps,
     .tickets-table-wrapper,
     .lunch-menu {
@@ -615,7 +615,7 @@ body {
 }
 
 /*@media*/
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
   .speakers-main {
     grid-template-columns: 100%;
     grid-template-rows: repeat(8, max-content);
