@@ -109,7 +109,8 @@ body {
   /*background-image:
     linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)),
     url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);*/
-  padding-top: 10rem;
+  /*padding-top: 10rem;*/
+  padding-top: 0rem;
 }
 
 /* Hero Section */
