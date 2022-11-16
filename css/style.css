@@ -71,11 +71,23 @@ body {
    width:20%;
 }
 
+.nav-title {
+  color: #00beee;
+  font-size: 2.0rem;
+}
+
 /* Default Side Padding */
 @media screen and (min-width: 768px){
 .default-p {
   /*padding: 0 20rem;*/
   padding: 0 10%;
+}
+}
+
+@media screen and (min-width: 1660px) {
+  .nav-title {
+  color: #00beee;
+  font-size: 2.0rem;
 }
 }
 
@@ -107,11 +119,6 @@ body {
 .page-menu-item:focus {
   color: #ec5242;
   text-decoration: none;
-}
-
-.nav-title {
-  color: #00beee;
-  font-size: 2.0rem;
 }
 
 /* Home - Main Section */
