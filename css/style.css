@@ -115,7 +115,7 @@ body {
 .top-nav {
   justify-content: flex-end;
   align-items: center;
-  color: #00b69d;
+  background: #00b69d;
 }
 
 .top-nav i {
