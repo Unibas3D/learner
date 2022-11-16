@@ -73,7 +73,7 @@ body {
 
 .nav-title {
   color: #00beee;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 /* Default Side Padding */
@@ -85,6 +85,13 @@ body {
 }
 
 @media screen and (min-width: 1660px) {
+  .nav-title {
+  color: #00beee;
+  font-size: 1.8rem;
+}
+}
+
+@media screen and (min-width: 1400px) {
   .nav-title {
   color: #00beee;
   font-size: 2.0rem;
