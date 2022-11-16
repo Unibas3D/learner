@@ -63,6 +63,10 @@ body {
   cursor: pointer;
 }
 
+.default-p {
+   padding: 0 2.5rem;
+}
+
 /* Default Side Padding */
 @media screen and (min-width: 768px){
 .default-p {
