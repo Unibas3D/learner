@@ -101,7 +101,7 @@ body {
 
 .nav-title {
   color: #00beee;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 /* Home - Main Section */
@@ -109,7 +109,7 @@ body {
   /*background-image:
     linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)),
     url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);*/
-  padding-top: 13rem;
+  padding-top: 10rem;
 }
 
 /* Hero Section */
