@@ -456,6 +456,11 @@ body {
   width: 20rem;
 }
 
+.dropdown-menu {
+  height: max-content;
+  font-size: 1.7rem;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   /* Default Padding */
