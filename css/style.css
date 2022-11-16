@@ -457,8 +457,7 @@ body {
 }
 
 .dropdown-menu {
-  height: max-content;
-  font-size: 1.7rem;
+  font-size: 1.7rem !important;
 }
 
 /* Media Queries */
