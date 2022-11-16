@@ -64,9 +64,11 @@ body {
 }
 
 /* Default Side Padding */
+@media screen and (min-width: 768px){
 .default-p {
   /*padding: 0 20rem;*/
   padding: 0 10%;
+}
 }
 
 /* Navigation */
@@ -463,7 +465,7 @@ body {
  }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 400px) {
   /* Default Padding */
   .default-p {
     padding: 0 2.5rem;
