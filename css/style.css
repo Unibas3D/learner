@@ -68,12 +68,30 @@ body {
 }
 
 .nav-logo {
-   width:25%;
+   width:45%;
 }
 
 .nav-title {
   color: #00beee;
+  font-size: 1.0rem;
+}
+
+@media screen and (min-width: 1660px) {
+  .nav-title {
+  color: #00beee;
   font-size: 1.5rem;
+}
+}
+
+@media screen and (min-width: 1400px) {
+  .nav-title {
+    color: #00beee;
+    font-size: 1.8rem;
+  }
+  
+  .nav-logo {
+    width:25%;
+  }
 }
 
 /* Default Side Padding */
@@ -82,24 +100,15 @@ body {
   /*padding: 0 20rem;*/
   padding: 0 10%;
 }
-}
-
-@media screen and (min-width: 1660px) {
-  .nav-title {
-  color: #00beee;
-  font-size: 1.8rem;
-}
-}
-
-@media screen and (min-width: 1400px) {
-  .nav-title {
-    color: #00beee;
-    font-size: 2.0rem;
-  }
   
-  .nav-logo {
-    width:20%;
-  }
+.nav-title {
+  color: #00beee;
+  font-size: 2.0rem;
+}
+  
+.nav-logo {
+  width:20%;
+}
 }
 
 /* Navigation */
