@@ -73,7 +73,7 @@ body {
 
 .nav-title {
   color: #00beee;
-  font-size: 2.0rem;
+  font-size: 1.8rem;
 }
 
 /* Default Side Padding */
@@ -87,7 +87,7 @@ body {
 @media screen and (min-width: 1660px) {
   .nav-title {
   color: #00beee;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
 }
 }
 
@@ -127,7 +127,7 @@ body {
     linear-gradient(rgba(168, 168, 166, 0.192), rgba(168, 166, 166, 0.192)),
     url(https://devfest.gdgrnd.ru/themes/gdg/assets/devfest2019/img/main-bg.png);*/
   /*padding-top: 10rem;*/
-  padding-top: 7rem;
+  padding-top: 3rem;
 }
 
 /* Hero Section */
