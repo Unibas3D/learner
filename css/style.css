@@ -65,7 +65,8 @@ body {
 
 /* Default Side Padding */
 .default-p {
-  padding: 0 20rem;
+  /*padding: 0 20rem;*/
+  padding: 0, 10%;
 }
 
 /* Navigation */
