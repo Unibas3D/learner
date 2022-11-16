@@ -456,7 +456,7 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* Default Padding */
   .default-p {
     padding: 0 2.5rem;
