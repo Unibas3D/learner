@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7f479a55bc.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Title and Favicon -->
+    <title>EASE-T 2023</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://unibas3d.github.io/ease-t/img/favicon.png">
+</head>
+<body>
+    <nav>
+        <div class="top-nav d-none d-md-flex bg-darky py-3 default-p">
+            <!--<i class="fab fa-facebook-f top-nav-item text-white px-3"></i>
+            <i class="fab fa-twitter top-nav-item text-white px-3"></i>
+            <a href="#" class="top-nav-item text-white px-3 text-decoration-none">English</a>
+            <a href="#" class="top-nav-item text-white px-3 text-decoration-none">My Page</a>
+            <a href="#" class="top-nav-item text-white pl-3 text-decoration-none">Logout</a>-->
+            <p class="top-nav-item text-white px-3 text-decoration-none">International Conference on Evaluation and Assessment in Software Engineering (EASE-2023) -<a class="top-nav-item text-white px-3 text-decoration-none" href="https://conf.researchr.org/home/ease-2023"><b>EASE-2023</b></a><p>
+        </div>
+        <div class="lower-nav d-none d-md-flex default-p py-5 bg-white border-bottom align-items-center">
+            <div class="nav-branding d-flex align-items-center cursor-pointer">
+                <img src="https://unibas3d.github.io/ease-t/img/logo.png" class="nav-logo" alt="logo">
+                <h2 class="nav-title">Evaluation and Assessment in computer Science Education and Training</h2>
+            </div>
+            
+           <!--<div class="main-conference" style="margin-top: 8%;margin-right: -2.5%;">
+                <p class="third-hero-text text-darky m-0">EASE 2023</p>
+                <br/>
+                <a href="https://conf.researchr.org/home/ease-2023">International Conference on Evaluation and Assessment in Software Engineering</a>
+                <p>Wen 14 - Fri 16 June 2023, Oulu - Finland</p>
+            </div>-->
+            
+            <ul class="page-menu d-flex">
+                <li class="mr-5">
+                    <a href="index.html" class="page-menu-item text-blue">
+                        Home
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="#" class="page-menu-item text-darky">
+                        CFP
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="#" class="page-menu-item text-darky">
+                        Organizers
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="dropdown d-flex d-md-none position-absolute">
+        <i class="fas fa-bars cursor-pointer" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button" style="font-size:200%;"></i>
+
+        <div class="dropdown-menu bg-darky" aria-labelledby="dropdownMenuButton" style="font-size:1.5rem;">
+          <a class="dropdown-item text-white" href="index.html">Home</a>
+          <a class="dropdown-item text-white" href="#">CFP</a>
+          <a class="dropdown-item text-white" href="#">Organizers</a>
+        </div>
+    </div>
+
+    <main class="main w-100 default-p">
+        <section class="hero-section">
+            <!--<p class="first-hero-text text-blue m-0">"Workshop on Evaluation and Assessment in computer Science Education and Training"</p>-->
+            <div style="display:inline-block;"><h1 class="second-hero-text m-0" style="text-align:left;float:left;">EASE-T 2023 </h1><h2 class="hero-venue-text text-darky" style="text-align:right; float:right; margin-top:8%; margin-right:-2%;">workshop</h2></div>
+            <p style="display:none;" class="third-hero-text text-darky m-0">
+                Google Developer Group DevFests are the largest Google related events in the world!
+                <br> Each DevFest is carefully crafted for you by your local GDG community to bring in awesome speakers from all over the world, great topics, and lots fun!</p>
+            <p class="hero-date-text text-darky m-0">16th June</p>
+            <p class="hero-venue-text text-darky m-0">City, State</p>
+            <br/>
+            <div style="text-align: justify; text-justify: inter-word;">
+            <b>Aim</b>
+            <br/>
+            The EASE-T (Evaluation and Assessment in computer Science Education and Training) 2023 workshop aims to bring together researchers and educators 
+                from both academic and industry to discuss and advance the state of the art in Computer Science education and training, regardless of the area 
+                of specialization of present and future computer scientists. In other words, the goal of EASE-T is to assess and evaluate consolidated educational 
+                and training means to let present and future computer scientists acquire the required soft and hard skills, as well as to experiment (and then assess 
+                and evaluate) novel educational and training means, including the use of any resource or technology for educational and training purposes in the 
+                Computer Science field. EASE-T 2023 is also interested in evaluating and assessing both soft and hard skills required to computer scientists, as well as 
+                engagement and retention (<i>e.g.</i> gender balance) in Computer Science education and training.</div>
+            <br/>
+            <div style="text-align: justify; text-justify: inter-word;">
+            <b>Scope</b>
+            <br/>
+            The study of Computer Science leads to different job opportunities <i>e.g.</i> computer scientists can specialize as software developers, software engineers, 
+                database administrators, <i>etc</i> Besides these <q>traditional</q> job opportunities, there are emerging areas in Computer Science <i>e.g.</i> artificial 
+                intelligence and cybersecurity representing new job opportunities for computer scientists. However, Computer Science is not easy to teach and learn, and it 
+                is not accessible to everyone.
+                Understanding how to improve aspects related to learning, teaching, and accessibility of this discipline is of primary relevance to educators and researchers, and 
+                even more to the labor maker, which demands an ever-increasing number of computer scientists with a rich set of soft and hard skills. Gathering 
+                empirical evidence by using quantitative, qualitative, and mixed research is a necessary step to increase our body of knowledge in Computer Science 
+                education and training. Given the expertise of EASE attendees in empirical research, we believe the EASE community can provide valuable feedback about 
+                the evaluation and assessment in the Computer Science education and training context.
+            </div>
+            <br/>
+            <!--Spostare in CFP-->
+            <div class="text-align: justify; text-justify: inter-word;">
+                <b>Topics of Interest</b>
+                <br/>
+                EASE-T 2023 encourages contributions covering any topic related to (quantitative, qualitative, and mixed) research in the context of Computer Science 
+                education and training. The topics of interest include, but are not limited to:
+                <ul style="margin-left:2%;">
+                    <li>Educational and training methods for acquiring Computer Science skills (<i>e.g.</i> programming languages, hardware and software technologies, software
+                        development, <i>etc</i>) and soft skills (<i>e.g.</i> problem-solving, teamwork, stress management <i>etc</i>) required to computer scientists
+                    </li>
+                    <li>Role of soft skills and human factors in Computer Science education and training</li>
+                    <li>Measurement of Computer Science skills, as well as soft skills required to computer scientists, through artificial intelligence methods and 
+                        not only</li>
+                    <li>Pedagogical approaches supporting Computer Science education and training in distributed and remote settings</li>
+                    <li>Education and training of computer scientists in university and workplace settings</li>
+                    <li>Online platforms and software tools specially designed or just used for education and training purposes in Computer Science</li>
+                    <li>Means (<i>e.g.</i> coding clubs, boot camps, contests, and serious games) for introducing Computer Science to primary and secondary students</li>
+                    <li>Certification of computer scientists</li>
+                    <li>Continuing training in Computer Science</li>
+                    <li>Engagement and retention (<i>e.g.</i> gender balance) in Computer Science education and training</li>
+                    <li>Any education and training means for present and future computer scientists not listed above</li>
+                </ul>
+            </div>
+            
+        </section>
+        
+        <section class="main-program bg-green">
+            <h1 class="main-program-head">Important Dates</h1>
+            <br/>
+            <h4><b>Submission deadline for workshop:</b> March 10th, 2023 <h4>
+            <br/>
+            <h4><b>Notification of authors about acceptance/rejection of workshop papers:</b> April 14th, 2023 </h4>
+            <br/>
+            <h4><b>Camera-ready papers for workshop:</b> April 28th, 2023 </h4>
+            <br/>
+            <h4><b>Early registration deadline for authors:</b> May 5th, 2023 </h4>
+            <br/>
+            <h4><b>Workshop day:</b> June 16th, 2023 </h4>
+            <br/>
+        </section>
+        
+        <!--
+        <section class="main-program bg-darky">
+            <h1 class="main-program-head">Main Program</h1>
+            <p class="program-head-hr"></p>
+            <div class="program-list d-flex">
+                <div class="program-item d-flex mr-1 cursor-pointer">
+                    <i class="fas fa-comment-alt m-0"></i>
+                    <p class="program-title text-blue font-weight-bold">Lecture</p>
+                    <p class="program-body  font-weight-bold m-0">Listen to differernt speakers from Russia and abroad speak about technology.</p>
+                </div>
+                
+                <div class="program-item d-flex mx-1 cursor-pointer">
+                    <i class="fas fa-comment-alt m-0"></i>
+                    <p class="program-title text-blue font-weight-bold">Lecture</p>
+                    <p class="program-body  font-weight-bold m-0">Listen to differernt speakers from Russia and abroad speak about technology.</p>
+                </div>
+                <div class="program-item d-flex mx-1 cursor-pointer">
+                    <i class="fas fa-comment-alt m-0"></i>
+                    <p class="program-title text-blue font-weight-bold">Lecture</p>
+                    <p class="program-body  font-weight-bold m-0">Listen to differernt speakers from Russia and abroad speak about technology.</p>
+                </div>
+                <div class="program-item d-flex mx-1 cursor-pointer">
+                    <i class="fas fa-comment-alt m-0"></i>
+                    <p class="program-title text-blue font-weight-bold">Lecture</p>
+                    <p class="program-body  font-weight-bold m-0">Listen to differernt speakers from Russia and abroad speak about technology.</p>
+                </div>
+                <div class="program-item d-flex ml-1 cursor-pointer">
+                    <i class="fas fa-comment-alt m-0"></i>
+                    <p class="program-title text-blue font-weight-bold">Lecture</p>
+                    <p class="program-body  font-weight-bold m-0">Listen to differernt speakers from Russia and abroad speak about technology.</p>
+                </div>
+                
+            </div>
+            <a href="#" class="main-program-foot text-white text-decoration-none">SEE THE WHOLE PROGRAM</a>
+        </section>-->
+
+        <!--
+        <section class="speakers">
+            <h1 class="speakers-head">Featured Speakers</h1>
+            <p class="program-head-hr"></p>
+            <div class="speakers-main">
+                <div class="speaker d-flex align-items-start">
+                    <img src="https://devfest.gdgrnd.ru/storage/app/media/speaker-avatar/devfest2019/cropped-images/66167751-EB24-4E43-8380-B615998E53A1-126-0-300-300-1568992885.jpeg" alt="" class="speaker-img ">
+                    <div class="speaker-right ml-4">
+                        <h2 class="speaker-name text-darky">Victor Bilyk</h2>
+                        <p class="speaker-bio text-blue mt-2">Online machine learning</p>
+                        <p class="speaker-seperator-line my-3"></p>      
+                        <p class="speaker-body text-darky">
+                            In this report, I will share with you practical tips on the use of machine learning in the development of new products in situations where there is insufficient data for the development of conventional models. </p>
+                    </div>
+                </div>
+                <div class="speaker d-flex align-items-start">
+                    <img src="https://devfest.gdgrnd.ru/storage/app/media/speaker-avatar/devfest2019/cropped-images/58380517_10213587056007860_1497132999890698240_n-0-0-0-0-1568998030.jpg" alt="" class="speaker-img ">
+                    <div class="speaker-right ml-4">
+                        <h2 class="speaker-name text-darky">Pasha Finkelstein</h2>
+                        <p class="speaker-bio text-blue mt-2">Fullstack testing in Kotlin</p>
+                        <p class="speaker-seperator-line my-3"></p>      
+                        <p class="speaker-body text-darky">
+                            Kotlin has long and firmly come into development. At least mobile phones, but in other places there is a niche for it. Let's figure out testing in Kotlin together </p>
+                    </div>
+                </div>
+
+                <div class="speaker d-flex align-items-start">
+                    <img src="https://devfest.gdgrnd.ru/storage/app/media/speaker-avatar/devfest2019/cropped-images/foto-1-76-89-330-330-1569761367.jpg" alt="" class="speaker-img ">
+                    <div class="speaker-right ml-4">
+                        <h2 class="speaker-name text-darky">Sergey Rogatnev</h2>
+                        <p class="speaker-bio text-blue mt-2">Microservice Communication: Retry vs. Circuit breaker</p>
+                        <p class="speaker-seperator-line my-3"></p>      
+                        <p class="speaker-body text-darky">
+                                To make reliable microservice interaction, you need to take care of the error handling and recovery strategy. You will find out why Random helps in enterprise solutions and what errors are “good” for your application.</p>
+                    </div>
+                </div>
+                <div class="speaker d-flex align-items-start">
+                    <img src="https://devfest.gdgrnd.ru/storage/app/media/speaker-avatar/devfest2019/cropped-images/PhZx6tFHLHg-0-0-0-0-1569761157.jpg" alt="" class="speaker-img ">
+                    <div class="speaker-right ml-4">
+                        <h2 class="speaker-name text-darky">Alexander Ageychenko</h2>
+                        <p class="speaker-bio text-blue mt-2">Features and limitations of background work</p>
+                        <p class="speaker-seperator-line my-3"></p>      
+                        <p class="speaker-body text-darky">
+                            The report includes an overview of the limitations of background work on different versions of android, the possibilities of circumventing them and performing tasks in the background in principle, as well as existing tools for this. </p>
+                    </div>
+                </div>
+
+                <div class="speaker d-flex align-items-start">
+                    <img src="https://devfest.gdgrnd.ru/storage/app/media/speaker-avatar/devfest2019/cropped-images/X7iHi-ro-210-19-300-300-1569758844.jpeg" alt="" class="speaker-img">
+                    <div class="speaker-right ml-4">
+                        <h2 class="speaker-name text-darky">Alexander Uralov</h2>
+                        <p class="speaker-bio text-blue mt-2">Why are programs complicated and what to do about it</p>
+                        <p class="speaker-seperator-line my-3"></p>      
+                        <p class="speaker-body text-darky">
+                            From this report you will learn about what complex code is and what affects the complexity of its perception. You will learn what cyclomatic complexity of programs is and what metrics are used to evaluate code complexity. </p>
+                    </div>
+                </div>
+                <div class="speaker d-flex align-items-start">
+                    <img src="https://devfest.gdgrnd.ru/storage/app/media/speaker-avatar/devfest2019/cropped-images/ihtjg1aogq-1-301-27-350-350-1569758563.jpg" alt="" class="speaker-img ">
+                    <div class="speaker-right ml-4">
+                        <h2 class="speaker-name text-darky">Alexander Iossa</h2>
+                        <p class="speaker-bio text-blue mt-2">Online machine learning</p>
+                        <p class="speaker-seperator-line my-3"></p>      
+                        <p class="speaker-body text-darky">
+                            We will consider what BDD testing is and how it helps to write E2E tests cheaper and faster. Using Gherkin syntax in conjunction with Cypress, we will consider how to make tests understandable not only for developers, but also for testers with managers. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+<!--
+        <section class="partners bg-darky">
+            <h1 class="partners-head mb-4">Partners</h1>
+            <p class="program-head-hr"></p>
+            <div class="partners-main d-flex mt-4 align-items-center justify-content-between">
+                <img src="img/mozilla-logo.svg" alt="" class="partner-logo">
+                <img src="img/google-logo.svg" alt="" class="partner-logo">
+                <img src="img/naver-logo.svg" alt="" class="partner-logo">
+                <img src="img/daum_kakao-logo.svg" alt="" class="partner-logo">
+                <img src="img/airbnb-logo.svg" alt="" class="partner-logo">
+            </div>
+        </section>-->
+    </main>
+
+
+
+
+    <!--Aggiungere i contatti (con foto)-->
+    <footer class="footer home-footer default-p w-100 d-flex" style="text-align:center; margin-top:3%;margin-bottom:3%; width:100%; padding-left:35%;">
+        <div class="main-footer w-100 d-flex" style="margin:auto; padding:10px;">
+            <div class="footer-right text-darky ml-5">
+                <h2 class="m-0 p-0">EASE-2023</h2>
+                <h2 class="m-0 p-0">Website Maintained by Nicola Capece, University of Basilicata, Italy</h2>
+            </div>
+            
+            <!--
+            <a href="https://creativecommons.org/">
+                <img src="img/creative-commons-logo.png" alt="" class="cc-img">
+            </a>
+            <div class="footer-right text-darky ml-5">
+                <p class="m-0 p-0">2020 Creative Commons.</p>
+                <p class="m-0 p-0">This website is just for an educational purpose. The dates and event are fictional. <br>
+                Google Developer Group DevFests are the largest Google related events in the world!</p>
+            </div>-->
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
