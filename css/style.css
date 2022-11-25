@@ -486,11 +486,6 @@ body {
 .footer {
   height: 17.5rem;
   /*align-items: center;*/
-   text-align:center; 
-  margin-top:3%;
-  margin-bottom:3%; 
-  width:100%; 
-  padding-left:35%;
 }
 
 .home-footer {
