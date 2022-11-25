@@ -77,6 +77,11 @@ body {
   font-size: 1.0rem;
 }
 
+
+.wsub {
+  font-size: 2rem;
+}
+
 .second-hero-text {
   font-size: 4rem;
   font-weight: 900;
@@ -113,6 +118,10 @@ body {
   
  .subtitle {
    display:none;
+  }
+  
+  .wsub {
+    font-size: 1.5rem;
   }
   
 .nav-title {
