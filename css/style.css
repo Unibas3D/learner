@@ -77,6 +77,15 @@ body {
   font-size: 1.0rem;
 }
 
+.second-hero-text {
+  font-size: 4rem;
+  font-weight: 900;
+  background: linear-gradient(45deg, #00b69d, #00beee 50%, #00beee 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #00beee;
+}
+
 @media screen and (min-width: 1660px) {
   .nav-title {
   color: #00beee;
@@ -109,6 +118,15 @@ body {
   
 .nav-logo {
   width:20%;
+}
+  
+.second-hero-text {
+  font-size: 5.5rem;
+  font-weight: 900;
+  background: linear-gradient(45deg, #00b69d, #00beee 50%, #00beee 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: #00beee;
 }
 }
 
@@ -159,15 +177,6 @@ body {
 
 .first-hero-text {
   font-size: 3.5rem;
-}
-
-.second-hero-text {
-  font-size: 5.5rem;
-  font-weight: 900;
-  background: linear-gradient(45deg, #00b69d, #00beee 50%, #00beee 90%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  color: #00beee;
 }
 
 .third-hero-text {
