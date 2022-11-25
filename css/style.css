@@ -485,7 +485,7 @@ body {
 /* Footer Section */
 .footer {
   height: 17.5rem;
-  align-items: center;
+  /*align-items: center;*/
 }
 
 .home-footer {
