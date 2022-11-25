@@ -111,6 +111,10 @@ body {
   padding: 0 10%;
 }
   
+ .subtitle {
+   display:none;
+  }
+  
 .nav-title {
   color: #00beee;
   font-size: 2.0rem;
