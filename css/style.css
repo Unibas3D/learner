@@ -19,18 +19,21 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-#box {
+.container {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
-  background-color: red;
-  gap: 10px;
+  height: 300px;
+  flex-direction: column;
 }
-.item {
-  background: gray;
-  width: 50px;
-  height: 50px;
-  border: 1px black solid;
+
+.items {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
 }
 
 @font-face {
