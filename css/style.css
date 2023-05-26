@@ -148,6 +148,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   background: #00b69d;
+  width: 115;
 }
 
 .top-nav i {
