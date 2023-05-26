@@ -130,7 +130,7 @@ body {
 }
   
 .nav-logo {
-  width:15%;
+  width:20%;
 }
   
 .second-hero-text {
@@ -531,11 +531,6 @@ body {
     padding: 0 2.5rem;
   }
   
-  .page-menu {
-    visibility: hidden !important;
-    display: none !important;
-  }
-
   .fa-bars {
     font-size: 3rem;
     margin: 1.5rem 0 0 2.5rem;
