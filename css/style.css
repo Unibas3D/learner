@@ -530,6 +530,10 @@ body {
   .default-p {
     padding: 0 2.5rem;
   }
+  
+  .page-menu {
+    visibility:hidden;
+  }
 
   .fa-bars {
     font-size: 3rem;
