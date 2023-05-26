@@ -532,7 +532,8 @@ body {
   }
   
   .page-menu {
-    visibility:hidden !important;
+    visibility: hidden !important;
+    display: none !important;
   }
 
   .fa-bars {
