@@ -113,6 +113,11 @@ body {
     .nav-title {
       visibility:hidden;
     }
+  
+  #primary_menu {
+    margin-top: -15%;
+    margin-bottom: -15%;
+  }
     
   .nav-logo {
     visibility:hidden;
