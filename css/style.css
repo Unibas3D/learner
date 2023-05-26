@@ -24,6 +24,7 @@ body {
   flex-wrap: wrap;
   height: 0px;
   flex-direction: column;
+  margin-right: 50%;
 }
 
 .items {
