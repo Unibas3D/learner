@@ -524,7 +524,7 @@ body {
     font-size: 1.7rem !important;
  }
 
-@media screen and (max-width 1000px) {
+@media screen and (min-width 1000px) {
     .nav-title {
       display:none;
     }
