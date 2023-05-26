@@ -117,11 +117,6 @@ body {
   .nav-logo {
     visibility:hidden;
   }
-  
-  #menu-test {
-    margin-top:-10%;
-    margin-bottom:-10%;
-  }
 }
 
 /* Default Side Padding */
@@ -130,12 +125,7 @@ body {
   /*padding: 0 20rem;*/
   padding: 0 10%;
 }
-  
-  #menu-test {
-    margin-top:0px;
-    margin-bottom:0px;
-  }
-  
+
  .subtitle {
    display:none;
   }
