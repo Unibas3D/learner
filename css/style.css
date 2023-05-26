@@ -109,10 +109,14 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .nav-title {
       visibility:hidden;
     }
+    
+  .nav-logo {
+    width:50%;
+  }
 }
 
 /* Default Side Padding */
