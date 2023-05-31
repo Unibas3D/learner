@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7f479a55bc.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Title and Favicon -->
+    <title>LEARNER 2023</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://unibas3d.github.io/learner/img/favicon.png">
+</head>
+<body>
+    <nav>
+        <div class="top-nav d-none d-md-flex bg-darky py-3 default-p">
+            <p class="top-nav-item text-white px-3 text-decoration-none">International Conference on Evaluation and Assessment in Software Engineering<a class="top-nav-item text-white px-3 text-decoration-none" href="https://conf.researchr.org/home/ease-2023"><b>EASE-2023</b></a><p>
+        </div>
+        <div class="lower-nav d-none d-md-flex default-p py-5 bg-white border-bottom align-items-center">
+            <div id="primary_menu" class="nav-branding d-flex align-items-center cursor-pointer">
+                <img src="https://unibas3d.github.io/learner/img/logo.png" class="nav-logo" alt="logo">
+                <h2 class="nav-title">evaLuation and assEssment on softwARe eNgineers' Education and tRaining</h2>
+            </div>
+            
+            <ul class="page-menu d-flex">
+                <li class="mr-5">
+                    <a href="index.html" class="page-menu-item text-darky">
+                        Home
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="CFP.html" class="page-menu-item text-darky">
+                        CFP
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="organization.html" class="page-menu-item text-darky">
+                        Organization
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="papers.html" class="page-menu-item text-darky">
+                        Accepted Papers
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="keynote.html" class="page-menu-item text-darky">
+                        Keynote
+                    </a>
+                </li>
+                <li class="mx-5">
+                    <a href="program.html" class="page-menu-item text-blue">
+                        Program
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="dropdown d-flex d-md-none position-absolute">
+        <i class="fas fa-bars cursor-pointer" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button" style="font-size:200%;"></i>
+
+        <div class="dropdown-menu bg-darky" aria-labelledby="dropdownMenuButton" style="font-size:1.5rem;">
+          <a class="dropdown-item text-white" href="index.html">Home</a>
+          <a class="dropdown-item text-white" href="CFP.html">CFP</a>
+          <a class="dropdown-item text-white" href="organization.html">Organizers</a>
+          <a class="dropdown-item text-white" href="papers.html">Accepted Papers</a>
+          <a class="dropdown-item text-white" href="keynote.html">Keynote</a>
+          <a class="dropdown-item text-white" href="program.html">Program</a>
+        </div>
+    </div>
+
+    <main class="main w-100 default-p">
+        <section class="hero-section">
+            <p style="display:none;" class="third-hero-text text-darky m-0">
+                Google Developer Group DevFests are the largest Google related events in the world!
+                <br> Each DevFest is carefully crafted for you by your local GDG community to bring in awesome speakers from all over the world, great topics, and lots fun!</p>
+            <p class="hero-date-text text-darky m-0">Accepted Papers</p>
+            <div style="text-align: justify; text-justify: inter-word;">
+        </section>
+    
+       <section class="main-program bg-green">
+            <h1 class="main-program-head" style="margin-top:-3%;">Important Dates</h1>
+            <br/>
+            <h4 style="padding-bottom:0.5%;"><b>Submission deadline for workshop:</b> <span style="text-decoration: line-through;">March 10th, 2023</span> - <span style="color:blue;"><b>Extended to</b> March 24th, 2023</span>  <h4>
+            <h4 style="padding-bottom:0.5%;"><b>Notification of authors about acceptance/rejection of workshop papers:</b> April 14th, 2023 </h4>
+            <h4 style="padding-bottom:0.5%;"><b>Workshop author CR deadline:</b> April 28th, 2023 </h4>
+            <h4 style="padding-bottom:0.5%;"><b>Workshop author early registration deadline:</b> April 28th, 2023 </h4>
+            <h4 style="padding-bottom:0.5%;"><b>Early bird registration closes:</b> 15 May (Finnish time)</h4>
+            <h4 style="padding-bottom:0.5%;"><b>Workshop day:</b> June 16th, 2023 </h4>
+            <br/>
+            <br/>
+            <h6>LEARNER-2023</h6>
+            <h6 style="margin-bottom:-3%;">Website Maintained by Nicola Capece, University of Basilicata, Italy</h6>
+        </section>
+    </main>
+
+
+
+
+    <!--Aggiungere i contatti (con foto)-->
+    <footer class="footer home-footer default-p w-100 d-flex" style="text-align:center; width:100%;">
+        <div class="main-footer w-100 d-flex" style="margin:auto; padding:10px;">
+            <div class="footer-right text-darky ml-5" style="display:none;">
+                <h2 class="m-0 p-0">LEARNER-2023</h2>
+                <h2 class="m-0 p-0">Website Maintained by Nicola Capece, University of Basilicata, Italy</h2>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
